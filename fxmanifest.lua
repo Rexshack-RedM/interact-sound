@@ -1,7 +1,9 @@
--- FXVersion Version
-fx_version 'adamant'
-games {"rdr3","gta5"}
+fx_version 'cerulean'
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
+game 'rdr3'
+
+description 'interact-sound'
+version '1.0.0'
 
 -- Client Scripts
 client_script 'client/main.lua'
@@ -18,5 +20,7 @@ files {
     'client/html/index.html',
     -- Begin Sound Files Here...
     'client/html/sounds/demo.ogg',
-	'client/html/sounds/metaldetector.ogg'
+    'client/html/sounds/metaldetector.ogg',
+    'client/html/sounds/cuff.ogg',
+    'client/html/sounds/uncuff.ogg',
 }
