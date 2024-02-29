@@ -3,7 +3,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 
 description 'interact-sound'
-version '1.0.1'
+version '1.0.2'
 
 -- Client Scripts
 client_script 'client/main.lua'
@@ -18,10 +18,11 @@ ui_page "client/html/index.html"
 -- DON'T FORGET TO ADD THE SOUND FILES TO THIS!
 files {
     'client/html/index.html',
+    'client/html/sounds/*.ogg',
     -- Begin Sound Files Here...
-    'client/html/sounds/demo.ogg',
-    'client/html/sounds/metaldetector.ogg',
-    'client/html/sounds/cuff.ogg',
-    'client/html/sounds/uncuff.ogg',
-    'client/html/sounds/jail.ogg',
+    --'client/html/sounds/demo.ogg',
+    --'client/html/sounds/metaldetector.ogg',
+    --'client/html/sounds/cuff.ogg',
+    --'client/html/sounds/uncuff.ogg',
+    --'client/html/sounds/jail.ogg',
 }
