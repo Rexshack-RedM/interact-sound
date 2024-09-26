@@ -10,7 +10,6 @@ client_script 'client/main.lua'
 
 -- Server Scripts
 server_script {
-    '@mysql-async/lib/MySQL.lua',
     'server/server.lua',
     'server/versionchecker.lua'
 }
