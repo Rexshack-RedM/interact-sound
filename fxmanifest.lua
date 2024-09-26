@@ -10,7 +10,7 @@ client_script 'client/main.lua'
 
 -- Server Scripts
 server_script {
-    'server/server.lua',
+    'server/main.lua',
     'server/versionchecker.lua'
 }
 
