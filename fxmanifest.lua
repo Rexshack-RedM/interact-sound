@@ -9,7 +9,10 @@ version '1.0.2'
 client_script 'client/main.lua'
 
 -- Server Scripts
-server_script 'server/main.lua'
+server_script {
+    'server/server.lua',
+    'server/versionchecker.lua'
+}
 
 -- NUI Default Page
 ui_page "client/html/index.html"
